@@ -136,6 +136,7 @@ services:
       - 16010:16010
     depends_on:
       - zookeeper
+      - namenode
       
   hbase-regionserver:
     image: coomia/hbase2.2:0.1
